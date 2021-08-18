@@ -2,12 +2,12 @@ importScripts("https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.9.1/firebase-messaging.js");
 
 firebase.initializeApp({
-    apiKey: "AIzaSyA4tKa-dCrQ0eYvVjceJw-Ch4GwzvYPRFY",
-    authDomain: "expense-tracker-2-cf35f.firebaseapp.com",
-    projectId: "expense-tracker-2-cf35f",
-    storageBucket: "expense-tracker-2-cf35f.appspot.com",
-    messagingSenderId: "482576866684",
-    appId: "1:482576866684:web:6b2694304f48f87da5d8f9"
+    apiKey: "AIzaSyCHuDPWjWy4cAaolTYHOS-9E9dJkCtGuhU",
+    authDomain: "quiz-2-47c03.firebaseapp.com",
+    projectId: "quiz-2-47c03",
+    storageBucket: "quiz-2-47c03.appspot.com",
+    messagingSenderId: "569582323782",
+    appId: "1:569582323782:web:0e8dc64724fa2aea7f6247"
 })
 
 

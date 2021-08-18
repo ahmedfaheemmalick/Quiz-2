@@ -2,14 +2,14 @@ import { useState, useEffect } from 'react';
 import InputCard from './Components/InputCard/InputCard';
 import QuestionCard from './Components/QuestionCard/QuestionCard';
 import ResultCard from './Components/ResultCard/ResultCard';
-// import notificationConfig from './firebase'
+import notificationConfig from './firebase'
 import { Difficulty, Question } from './Types';
 import fetchData from './Api';
 import styles from './App.module.css';
 
 const App = () => {
 
-  // notificationConfig()
+  notificationConfig()
 
   const [quiz, setQuiz] = useState<Question[]>([])
   const [amount, setAmount] = useState<number>(5);
