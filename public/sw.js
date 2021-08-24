@@ -1,37 +1,25 @@
-let version = "v1";
+const version = "v1";
 
-// let cacheFiles = [
-//     '/static/js/bundle.js',
-//     '/static/js/0.chunk.js',
-//     '/static/js/vendors~main.chunk.js',
-//     '/static/js/main.chunk.js',
-//     'https://fonts.googleapis.com/css2?family=Lato&display=swap',
-//     '/static/media/bg.38c377ac.jpg',
-//     '/static/media/NeonTubes2.f01f7e70.otf',
-//     '/manifest.json',
-//     'https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple',
-//     '/favicon.ico',
-//     '/logo192.svg',
-//     '/logo192.png',
-//     '/index.html',
-//     '/'
-// ];
+const cacheFiles = [
+    "https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple",
+    '/static/js/vendors~main.chunk.js',
+    '/static/media/bg.38c377ac.jpg',
+    "/static/js/bundle.js",
+    "/static/js/1.chunk.js",
+    "/static/js/main.chunk.js",
+    '/manifest.json',
+    '/favicon.ico',
+    "/logo192.png",
+    '/sockjs-node',
+    "/index.html",
+    "/",
+];
 
 this.addEventListener("install", (e) => {
     this.skipWaiting();
     e.waitUntil(
         caches.open(version).then((cache) => {
-            return cache.addAll([
-                '/static/js/vendors~main.chunk.js',
-                '/sockjs-node',
-                '/manifest.json',
-                '/static/js/main.chunk.js',
-                '/logo192.png',
-                '/favicon.ico',
-                '/static/js/bundle.js',
-                '/static/media/bg.38c377ac.jpg',
-                'https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple',
-            ]);
+            return cache.addAll(cacheFiles);
         })
     );
 });
@@ -53,7 +41,6 @@ this.addEventListener("fetch", (event) => {
                 .match(event.request, options)
                 .then((response) => {
                     if (response) {
-                        // console.log(response);
                         return response || fetch.response;
                     }
                 })
