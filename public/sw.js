@@ -8,11 +8,11 @@ const cacheFiles = [
     // 'https://a-quiz-app-2.netlify.app/sockjs-node',
 
 
-    'https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple',
-    'https://a-quiz-app-2.netlify.app/static/js/main.chunk.js',
-    'https://a-quiz-app-2.netlify.app/static/js/1.chunk.js',
-    'https://a-quiz-app-2.netlify.app/static/js/bundle.js',
-    'https://a-quiz-app-2.netlify.app/logo192.png',
+    // 'https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple',
+    // 'https://a-quiz-app-2.netlify.app/static/js/main.chunk.js',
+    // 'https://a-quiz-app-2.netlify.app/static/js/1.chunk.js',
+    // 'https://a-quiz-app-2.netlify.app/static/js/bundle.js',
+    // 'https://a-quiz-app-2.netlify.app/logo192.png',
     'https://a-quiz-app-2.netlify.app/index.html',
     'https://a-quiz-app-2.netlify.app/',
 ];
