@@ -76,7 +76,7 @@ var cacheName = 'demo-app';
 
 
 var filesToCache = [
-    'https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple',
+    // 'https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple',
     '/static/js/bundle.js',
     '/static/js/1.chunk.js',
     '/static/js/main.chunk.js',
