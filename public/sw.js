@@ -11,8 +11,8 @@ const cacheFiles = [
     // './favicon.ico',
     // './logo192.png',
     // './sockjs-node',
-    './index.html',
-    './',
+    'https://a-quiz-app-2.netlify.app/index.html',
+    'https://a-quiz-app-2.netlify.app/',
 ];
 
 this.addEventListener('install', e => {
