@@ -13,8 +13,8 @@ const cacheFiles = [
     './static/js/1.chunk.js',
     './static/js/bundle.js',
     './logo192.png',
-    'https://a-quiz-app-2.netlify.app/index.html',
-    'https://a-quiz-app-2.netlify.app/',
+    './index.html',
+    './',
 ];
 
 this.addEventListener('install', e => {
