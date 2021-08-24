@@ -1,16 +1,16 @@
 const version = 'v1';
 
 const cacheFiles = [
-    // '.https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple',
-    // './static/js/vendors~main.chunk.js',
-    // './static/media/bg.38c377ac.jpg',
-    // './static/js/bundle.js'  ,
-    // './static/js/1.chunk.js',
-    // './static/js/main.chunk.js',
-    // './manifest.json',
-    // './favicon.ico',
-    // './logo192.png',
-    // './sockjs-node',
+    'https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple',
+    'https://a-quiz-app-2.netlify.app/static/js/vendors~main.chunk.js',
+    'https://a-quiz-app-2.netlify.app/static/media/bg.38c377ac.jpg',
+    'https://a-quiz-app-2.netlify.app/static/js/bundle.js',
+    'https://a-quiz-app-2.netlify.app/static/js/1.chunk.js',
+    'https://a-quiz-app-2.netlify.app/static/js/main.chunk.js',
+    'https://a-quiz-app-2.netlify.app/manifest.json',
+    'https://a-quiz-app-2.netlify.app/favicon.ico',
+    'https://a-quiz-app-2.netlify.app/logo192.png',
+    'https://a-quiz-app-2.netlify.app/sockjs-node',
     'https://a-quiz-app-2.netlify.app/index.html',
     'https://a-quiz-app-2.netlify.app/',
 ];
