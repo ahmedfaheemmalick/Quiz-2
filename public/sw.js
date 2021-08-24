@@ -1,14 +1,12 @@
 const version = 'v1';
 
 const cacheFiles = [
-    // 'https://a-quiz-app-2.netlify.app/static/js/vendors~main.chunk.js',
-    // 'https://a-quiz-app-2.netlify.app/static/media/bg.38c377ac.jpg',
-    // 'https://a-quiz-app-2.netlify.app/manifest.json',
-    // 'https://a-quiz-app-2.netlify.app/favicon.ico',
-    // 'https://a-quiz-app-2.netlify.app/sockjs-node',
-
-
     'https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple',
+    './static/js/vendors~main.chunk.js',
+    './static/media/bg.38c377ac.jpg',
+    './manifest.json',
+    './favicon.ico',
+    './sockjs-node',
     './static/js/main.chunk.js',
     './static/js/1.chunk.js',
     './static/js/bundle.js',
