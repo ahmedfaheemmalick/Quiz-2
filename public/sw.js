@@ -1,31 +1,30 @@
-const version = "v1";
+const version = 'v1';
 
 const cacheFiles = [
-    "https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple",
-    'https://a-quiz-app-2.netlify.app/static/js/vendors~main.chunk.js',
+    'https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple',
+    '/static/js/vendors~main.chunk.js',
     '/static/media/bg.38c377ac.jpg',
-    "/static/js/bundle.js",
-    "/static/js/1.chunk.js",
-    "/static/js/main.chunk.js",
+    '/static/js/bundle.js'  ,
+    '/static/js/1.chunk.js',
+    '/static/js/main.chunk.js',
     '/manifest.json',
     '/favicon.ico',
-    "/logo192.png",
+    '/logo192.png',
     '/sockjs-node',
-    "/index.html",
-    "/",
+    '/index.html',
+    '/',
 ];
 
-self.addEventListener("install", (e) => {
-    self.skipWaiting();
+self.addEventListener('install', e => {
     e.waitUntil(
-        caches.open(version).then((cache) => {
+        caches.open(version).then(cache => {
             return cache.addAll(cacheFiles);
         })
     );
 });
 
-self.addEventListener("activate", function (e) {
-    console.log("[ServiceWorker] Activate");
+self.addEventListener('activate', function (e) {
+    console.log('[ServiceWorker] Activate');
 });
 
 const options = {
@@ -34,7 +33,7 @@ const options = {
     ignoreVary: true,
 };
 
-self.addEventListener("fetch", (event) => {
+self.addEventListener('fetch', (event) => {
     if (!navigator.onLine) {
         event.respondWith(
             caches
@@ -45,7 +44,7 @@ self.addEventListener("fetch", (event) => {
                     }
                 })
                 .catch((err) => {
-                    console.log("err", err);
+                    console.log('err', err);
                 })
         );
     }
