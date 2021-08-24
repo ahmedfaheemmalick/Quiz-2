@@ -58,7 +58,7 @@ const App = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Quiz App</h1>
+      <h1 className={styles.title}>{"<Quiz App />"}</h1>
       {showInputCard &&
         <InputCard
           difficulty={difficulty}
