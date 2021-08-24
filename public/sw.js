@@ -1,28 +1,14 @@
 const version = 'v1';
 
 const cacheFiles = [
-    // './static/js/vendors~main.chunk.js',
-    // './static/media/bg.38c377ac.jpg',
-    // './manifest.json',
-    // './favicon.ico',
-    // './sockjs-node',
-    // './static/js/main.chunk.js',
-    // './static/js/1.chunk.js',
-    // './static/js/bundle.js',
-    // './logo192.png',
-    // './index.html',
-
-
-
-
     'https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple',
-    '/static/css/main.643a1f75.chunk.css',
-    '/static/js/main.752a7604.chunk.js',
-    '/static/js/2.fbceb4e8.chunk.js',
-    '/static/media/bg.38c377ac.jpg',
-    '/manifest.json',
-    '/favicon.ico',
-    '/sw.js',
+    './static/css/main.643a1f75.chunk.css',
+    './static/js/main.752a7604.chunk.js',
+    './static/js/2.fbceb4e8.chunk.js',
+    './static/media/bg.38c377ac.jpg',
+    './manifest.json',
+    './favicon.ico',
+    './sw.js',
     './',
 ];
 
