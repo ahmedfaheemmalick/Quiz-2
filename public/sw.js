@@ -2,7 +2,7 @@ const version = "v1";
 
 const cacheFiles = [
     "https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple",
-    '/static/js/vendors~main.chunk.js',
+    'https://a-quiz-app-2.netlify.app/static/js/vendors~main.chunk.js',
     '/static/media/bg.38c377ac.jpg',
     "/static/js/bundle.js",
     "/static/js/1.chunk.js",
