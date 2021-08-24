@@ -15,7 +15,7 @@ const cacheFiles = [
     './',
 ];
 
-self.addEventListener('install', e => {
+this.addEventListener('install', e => {
     e.waitUntil(
         caches.open(version).then(cache => {
             return cache.addAll(cacheFiles);
@@ -23,7 +23,7 @@ self.addEventListener('install', e => {
     );
 });
 
-self.addEventListener('activate', function (e) {
+this.addEventListener('activate', function (e) {
     console.log('[ServiceWorker] Activate');
 });
 
@@ -33,7 +33,7 @@ const options = {
     ignoreVary: true,
 };
 
-self.addEventListener('fetch', (event) => {
+this.addEventListener('fetch', (event) => {
     if (!navigator.onLine) {
         event.respondWith(
             caches
