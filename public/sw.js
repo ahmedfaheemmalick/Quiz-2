@@ -76,19 +76,19 @@ var cacheName = 'demo-app';
 
 
 var filesToCache = [
-    '/static/js/bundle.js',
-    '/static/js/0.chunk.js',
-    '/static/js/vendors~main.chunk.js',
-    '/static/js/main.chunk.js',
-    // 'https://fonts.googleapis.com/css2?family=Lato&display=swap',
-    '/static/media/bg.38c377ac.jpg',
-    // '/static/media/NeonTubes2.f01f7e70.otf',
-    '/manifest.json',
     'https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple',
-    '/favicon.ico',
+    '/static/js/bundle.js',
+    '/static/js/1.chunk.js',
+    '/static/js/main.chunk.js',
     '/logo192.png',
     '/index.html',
     '/'
+    // '/static/js/vendors~main.chunk.js',
+    // 'https://fonts.googleapis.com/css2?family=Lato&display=swap',
+    // '/static/media/bg.38c377ac.jpg',
+    // '/static/media/NeonTubes2.f01f7e70.otf',
+    // '/manifest.json',
+    // '/favicon.ico',
 ];
 
 this.addEventListener("activate", function (e) {
