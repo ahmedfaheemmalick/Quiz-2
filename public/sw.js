@@ -1,11 +1,11 @@
 const version = 'v1';
 
 const cacheFiles = [
-    'https://brave-ptolemy-844c35.netlify.app/static/media/NeonTubes2.f01f7e70.otf',
     'https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple',
-    'https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXg.woff2',
     'https://fonts.googleapis.com/css2?family=Lato&display=swap',
+    '/static/media/NeonTubes2.f01f7e70.ot',
     '/static/css/main.460d2731.chunk.css',
+    '/static/css/main.e490db62.chunk.css',
     '/static/js/2.fbceb4e8.chunk.js',
     '/static/js/main.055c7808.chunk.js',
     '/static/media/bg.38c377ac.jpg',
